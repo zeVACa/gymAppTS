@@ -1,13 +1,11 @@
 import React from 'react';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+      <p>some header</p>
     </div>
   );
-}
+};
 
 export default App;
